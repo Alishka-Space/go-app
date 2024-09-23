@@ -6,7 +6,7 @@
 .tour-step{
     font-size: 17px;
     font-weight: 500;
-    color:  #e5c962;
+    color:  gray;
 }
 
 .tour-step i {
@@ -21,17 +21,23 @@
     margin: 15px 0;
     border-radius: 10px;
     font-size: 21px;
+    width: max-content;
 }
 .tour-title{
-    color:  #e5c962;
+    color:  #201f1b;
 }
 
-tour-info{
+.tour-info{
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 
 }
 .tour-provider{
-    color:  #e5c962;
+    margin-left : 24px;
+    font-size: 17px;
     
+}
+.tour-provider span{
+    color: #c69e0c;
 }
