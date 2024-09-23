@@ -28,7 +28,7 @@ const SingleTour = () => {
       </div>
     </div>
     <div className="tour-img-wrapper">
-      <img src={tour.img} alt={tour.title} className='tour-img' />
+      <img src={tour.image} alt={tour.title} className='tour-img' />
       <div className="book-now">
         <div className="book-now-header">Save up to 40%</div>
         <div className="book-now-body">
@@ -42,6 +42,8 @@ const SingleTour = () => {
           </div>
           <p className="book-now-more-info">
             <i className="bi bi-calender-check"></i>
+            <span>Reserve now and pay later</span>
+            Book your spot and pay nothing until arrival
 
           </p>
         </div>
