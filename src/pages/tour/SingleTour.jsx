@@ -41,7 +41,7 @@ const SingleTour = () => {
             <button className='book-now-btn'>Book Now</button>
           </div>
           <p className="book-now-more-info">
-            
+            <i className="bi bi-calender-check"></i>
 
           </p>
         </div>
