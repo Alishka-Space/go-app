@@ -27,6 +27,26 @@ const SingleTour = () => {
         Activity Provider BY: <span>Ali Ibrahim </span>
       </div>
     </div>
+    <div className="tour-img-wrapper">
+      <img src={tour.img} alt={tour.title} className='tour-img' />
+      <div className="book-now">
+        <div className="book-now-header">Save up to 40%</div>
+        <div className="book-now-body">
+          <div className="book-now-booked">Booked 65 time yesterday</div>
+          <div className="book-now-price-wrapper">
+            <div className="book-now-price">
+              <b>${tour.priceFrom}</b>
+              <b>per person</b>          
+            </div>
+            <button className='book-now-btn'>Book Now</button>
+          </div>
+          <p className="book-now-more-info">
+            
+
+          </p>
+        </div>
+      </div>
+    </div>
   </section>
     
   )
