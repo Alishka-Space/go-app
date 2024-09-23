@@ -1,0 +1,37 @@
+.tour{
+    padding: 30px;
+
+}
+
+.tour-step{
+    font-size: 17px;
+    font-weight: 500;
+    color:  #e5c962;
+}
+
+.tour-step i {
+    font-size: 12px;
+}
+
+.tour-category{
+    background-color: rgb(2, 2, 50);
+    color:  #e5c962;
+    font-weight: 600;
+    padding: 5px 10px;
+    margin: 15px 0;
+    border-radius: 10px;
+    font-size: 21px;
+}
+.tour-title{
+    color:  #e5c962;
+}
+
+tour-info{
+    display: flex;
+    align-items: center;
+
+}
+.tour-provider{
+    color:  #e5c962;
+    
+}

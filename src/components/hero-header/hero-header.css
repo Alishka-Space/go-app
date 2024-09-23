@@ -1,0 +1,105 @@
+.hero-header{
+    background: url(../../images/dubai7.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 100px);
+    padding: 30px;
+}
+
+/* Search Box */
+.search-box{
+    width: 100%;
+    height: 60px;
+    position: relative;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    
+}
+
+.input-wrapper{
+    width: 90%;
+    height: 100%;
+}
+
+.input-wrapper .bi-search{
+    font-size: 20px;
+    
+}
+
+.search-box-input{
+    width: 90%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    padding-left: 10px;
+    font-size: 21px;
+    
+}
+.search-box-btn{
+    background-color: #0b1639;
+    font-size: 19px;
+    font-weight: bold;
+    color: #e5c962;
+    cursor: pointer;
+    border: none;
+    padding: 12px 21px;
+    border-radius: 60px;
+   
+    
+}
+.search-box-btn:hover{
+    border: 1px solid black;
+    
+}
+
+/* Title */
+.hero-header-title{
+    font-size: 50px;
+    color: white;
+    margin-top: 200px;
+    padding-left: 70px;
+    
+}
+
+.hero-header-title h2{
+    font-size: 70px;
+    font-family: cursive ;
+}
+.hero-header-title h1{
+    font-size: 80px;
+    font-family: cursive;
+}
+
+/* media query */
+@media (max-width:720px){
+    .hero-header{
+        padding: 37px;
+    }
+    .hero-header-title h2{
+        font-size: 50px;
+    }
+    .hero-header-title h1{
+        font-size: 60px;
+    }
+    .search-box-input{
+        font-size: 17px;
+    }
+
+}
+
+@media (max-width:400px){
+  
+    .search-box-input{
+        font-size: 13px;
+    }
+    .search-box-btn{
+        padding: 12px 15px;
+        font-size: 15px;
+    }
+
+}

@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Go Dubai
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**A Traveling Company App for Tourists and More**
 
-## Available Scripts
+Welcome to **Go Dubai**!
+ This web application is designed to offer users an immersive experience into the adventures Go Dubai. From desert safaris to cultural tours, our platform provides seamless navigation, allowing users to explore, book, and experience unforgettable tours of Dubai. Built with React and React Router and pure Css, the app delivers a smooth user experience across different pages and devices.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+### **Home Page**
+- A welcoming interface that introduces users to the **Go Dubai ** experience.
+- Offers easy navigation to browse available tours.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### **Tour Details Page**
+- Users can explore detailed information about individual tours including:
+  - **Tour title**
+  - **Photos**
+  - **Price**
+  - **Description**
+  - **Customer reviews**
+  - **Star ratings**.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### **Sort Tours by Price**
+- Users can sort tours based on price, from low to high or high to low or with Recommended option.
 
-### `npm test`
+### **Pagination**
+- Allows users to view tours across multiple pages.
+- Displays 6 tours per page, with "Next" and "Previous" buttons for easy navigation.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## **Extra : News Letter**
+User can Sign Up to Receive a curated list of the best travel deals and inspiration
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **Responsive Design**
+- The app is fully responsive, ensuring a great user experience on both desktop and mobile devices.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **Tours are fetched dynamically from a local API.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Technology Stack
+- **Frontend**: React, React Router
+- **Styling**: Custom CSS for clean and visually appealing layouts
+- **API**: Local API for tour data
