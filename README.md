@@ -3,7 +3,7 @@
 **A Traveling Company App for Tourists and More**
 
 Welcome to **Go Dubai**!
- This web application is designed to offer users an immersive experience into the adventures Go Dubai. From desert safaris to cultural tours, our platform provides seamless navigation, allowing users to explore, book, and experience unforgettable tours of Dubai. Built with React and React Router and pure Css, the app delivers a smooth user experience across different pages and devices.
+ This web application is designed to offer users an immersive experience into the adventures Go Dubai. From fun ,adventure to cultural tours, our platform provides seamless navigation, allowing users to explore, book, and experience unforgettable tours of Dubai. Built with React and React Router and pure Css, the app delivers a smooth user experience across different pages and devices.
 
 ## Features
 
