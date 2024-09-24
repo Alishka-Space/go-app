@@ -17,7 +17,7 @@
 }
 
 .footer-item-title{
-    margin-bottom: 21px;
+    margin-bottom: 10px;
    
 }
 .footer-item-link{
@@ -37,7 +37,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 25px;
+
 }
 
 .footer-icons .icon{
@@ -49,7 +49,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    margin-right: 10px;
+    margin-right: 15px;
    
 }
 

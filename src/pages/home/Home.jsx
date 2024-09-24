@@ -15,15 +15,15 @@ import NewsLetter from '../../components/news-letter/NewsLetter';
 
 const Home = () => {
 
-    const [currentPage,setCurrentPage] = useState(1); // current page
+    const [currentPage,setCurrentPage] = useState(1); 
 
-  const [sortItem,setSortItem] = useState("recommended"); // sort item
+  const [sortItem,setSortItem] = useState("recommended"); 
 
 
-  const TOUR_PER_PAGE = 6;  // 6 tours per page
-  const pages = Math.ceil(toursList.length / TOUR_PER_PAGE);  // to make integer number of pages 
-  const startIndex = (currentPage - 1) * TOUR_PER_PAGE;  // to know the start index of the tours
-  const finishIndex = currentPage * TOUR_PER_PAGE;  // to know the finish index of the tours
+  const TOUR_PER_PAGE = 6;  
+  const pages = Math.ceil(toursList.length / TOUR_PER_PAGE);  
+  const startIndex = (currentPage - 1) * TOUR_PER_PAGE; 
+  const finishIndex = currentPage * TOUR_PER_PAGE;  
 
     // sort tour
   const sortedTourList =
@@ -32,7 +32,7 @@ const Home = () => {
   : sortItem === "high" ? toursList.sort((a, b) => b.priceFrom - a.priceFrom)
   : toursList.sort((a,b) => b.rating - a.rating);
 
-  const orderedTourList =  sortedTourList.slice(startIndex,finishIndex);  // pagination
+  const orderedTourList =  sortedTourList.slice(startIndex,finishIndex); 
 
     return (
         <div>

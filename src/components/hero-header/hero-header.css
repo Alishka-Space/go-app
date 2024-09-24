@@ -78,7 +78,9 @@
     font-family: cursive;
 }
 
-/* media query */
+
+
+
 @media (max-width:720px){
     .hero-header{
         padding: 37px;

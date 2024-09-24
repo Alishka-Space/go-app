@@ -8,7 +8,7 @@ const SingleTour = () => {
   const {id} = useParams();
   // console.log(params);
 
-  const tour =  toursList.find(t => t.id === +id); //parseInt(id)
+  const tour =  toursList.find(t => t.id === +id); 
 
   console.log(tour);
 

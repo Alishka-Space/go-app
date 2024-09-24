@@ -24,7 +24,6 @@ const Footer = () => {
             <li className="footer-item-link">Contact Us</li>
             <li className="footer-item-link">Legal Notice</li>
             <li className="footer-item-link">Privacy Policy</li>
-            <li className="footer-item-link">Contact</li>
         </ul>
     </div>
     <div className="footer-item">
@@ -32,7 +31,6 @@ const Footer = () => {
         <ul className="footer-item-list">
             <li className="footer-item-link">About Us</li>
             <li className="footer-item-link">Careers</li>
-            <li className="footer-item-link">Blog</li>
             <li className="footer-item-link">Travel Guide</li>
         </ul>
     </div>
