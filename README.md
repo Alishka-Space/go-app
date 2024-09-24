@@ -19,6 +19,12 @@ Welcome to **Go Dubai**!
   - **Description**
   - **Customer reviews**
   - **Star ratings**.
+  +++++++++++++++
+  - **Home page**
+  - **single tour**
+  - **About**.
+  - **Login**.
+  - **Register page**.
 
 ### **Sort Tours by Price**
 - Users can sort tours based on price, from low to high or high to low or with Recommended option.

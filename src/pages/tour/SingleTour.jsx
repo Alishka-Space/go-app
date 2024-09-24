@@ -36,19 +36,74 @@ const SingleTour = () => {
           <div className="book-now-price-wrapper">
             <div className="book-now-price">
               <b>${tour.priceFrom}</b>
-              <b>per person</b>          
+              <p>per person</p>          
             </div>
             <button className='book-now-btn'>Book Now</button>
           </div>
           <p className="book-now-more-info">
-            <i className="bi bi-calender-check"></i>
+           <i class="bi bi-calendar2-check-fill"></i>
             <span>Reserve now and pay later</span>
-            Book your spot and pay nothing until arrival
+            Book your spot and pay nothing until arrived
 
           </p>
         </div>
       </div>
     </div>
+    <p className="tour-description">
+        Discover a different side of Go Dubai by Ali Ibrahim an a fun-filled  across the
+        colors of Dubai . Enjoy the dubai world with a professional guide 
+        to add fun experience to your adventure.
+      </p>
+      <div className="tour-more-information">
+        <h2 className="tour-info-title">About this activity</h2>
+        <div className="tour-info-item">
+          <div className="tour-info-item-title">
+            <i style={{color: '#27ae60'}} className="bi bi-calendar3"></i>
+            Free Cancellation
+          </div>
+          <p className="tour-info-item-desc">
+            Cancel up to 24 hours in advance to recieve a full refund
+          </p>
+        </div>
+        <div className="tour-info-item">
+          <div className="tour-info-item-title">
+            <i style={{color: '#2980b9'}} className="bi bi-calendar-plus-fill"></i>
+            Reserve now & pay later
+          </div>
+          <p className="tour-info-item-desc">
+            Keep your travel plan flexible -- book your spot and pay nothing
+            today.
+          </p>
+        </div>
+        <div className="tour-info-item">
+          <div className="tour-info-item-title">
+            <i style={{color: '#e74c3c'}} className="bi bi-virus"></i>
+            Covid -19 precautions
+          </div>
+          <p className="tour-info-item-desc">
+            Special health and safety measures are in place. Check your activity
+            voucher once you book for full details.
+          </p>
+        </div>
+        <div className="tour-info-item">
+          <div className="tour-info-item-title">
+            <i style={{color: '#8e44ad'}} className="bi bi-clock-history"></i>
+            Duration 4 - 7 hours
+          </div>
+          <p className="tour-info-item-desc">
+          Check availability to see staring times.
+          </p>
+        </div>
+        <div className="tour-info-item">
+          <div className="tour-info-item-title">
+            <i style={{color: '#2c3e50'}} className="bi bi-person-check"></i>
+            Live tour guide
+          </div>
+          <p className="tour-info-item-desc">
+          English
+          </p>
+        </div>
+      </div>
   </section>
     
   )

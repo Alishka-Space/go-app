@@ -1,7 +1,13 @@
 import React from 'react'
+import './forms.css'
 
 const Login = () => {
-  return ( <h1 className="login">Login Page</h1>
+  return ( <div className="form-wrapper">
+    <form className="form">
+      <input type="email" placeholder='Email'/>
+      <input type="password" placeholder='password'/>
+    </form>
+  </div>
     
   )
 }
