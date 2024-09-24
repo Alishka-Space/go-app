@@ -19,7 +19,7 @@ Welcome to **Go Dubai**!
   - **Description**
   - **Customer reviews**
   - **Star ratings**.
-  +++++++++++++++
+ 
   - **Home page**
   - **single tour**
   - **About**.
