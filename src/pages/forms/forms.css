@@ -1,7 +1,7 @@
 .form-wrapper {
     width: 100%;
     height: calc(100vh - 100px);
-    background: url(../../images/larg.jpg) no-repeat;
+    background: url(../../images/log-8.jpg) no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -27,8 +27,9 @@
 
 .form-btn {
     width: 100%;
-    background-color: blue;
-    color: white;
+    height: 30px;
+    background-color: rgb(14, 14, 16);
+    color: rgb(135, 3, 3);
     cursor: pointer;
     border-radius: 60px;
     padding: 7px;
