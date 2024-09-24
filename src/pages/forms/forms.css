@@ -27,14 +27,18 @@
 
 .form-btn {
     width: 100%;
-    height: 30px;
+    height: 50px;
     background-color: rgb(14, 14, 16);
-    color: rgb(135, 3, 3);
+    color: #e5c962;
     cursor: pointer;
+    border: 2px solid #e5c962;
     border-radius: 60px;
     padding: 7px;
     font-weight: 700;
     font-size: 21px;
     margin-top: 17px;
-    border: none;
+}
+.form-btn:hover {
+    background-color: #e5c962;
+    color: rgb(14, 14, 16);
 }
