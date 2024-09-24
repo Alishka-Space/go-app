@@ -43,7 +43,7 @@ User can Sign Up to Receive a curated list of the best travel deals and inspirat
 ### **Tours are fetched dynamically from a local API.
 
 ## Technology Stack
-- **Frontend**: React, React Router
+- **Frontend**: React, React Router,React-toastify
 - **Styling**: Custom CSS for clean and visually appealing layouts
 - **API**: Local API for tour data
 
