@@ -1,9 +1,71 @@
 import React from 'react'
+import { useState } from "react";
+import "./forms.css";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Register = () => {
-  return ( <h1>Register Page</h1>
-   
-  )
+
+  const [email, setEmail] = useState("");
+  const [username, setUsername] = useState("")
+  const [password, setPassword] = useState("")
+  const [confirmPassword, setConfirmPassword] = useState("")
+
+  // Form Submit Handler
+  const formSubmitHandler = (event) => {
+    event.preventDefault();
+
+    if (email.trim() === "") {
+      return toast.error("Email is required");
+    }
+    if (username.trim() === "") {
+      return toast.error("Username is required");
+    }
+
+    if (password.trim() === "") {
+      return toast.error("Password is required");
+    }
+    if (password !== confirmPassword) {
+      return toast.error("Password Don't Match");
+    }
+
+    console.log({ email, password, username });
+  };
+  return (
+    <div className="form-wrapper">
+      <ToastContainer theme="colored" />
+      <form onSubmit={formSubmitHandler} className="form">
+        <input
+          onChange={(e) => setEmail(e.target.value)}
+          value={email}
+          type="email"
+          placeholder="Email"
+        />
+        <input
+          onChange={(e) => setUsername(e.target.value)}
+          value={username}
+          type="text"
+          placeholder="username"
+        />
+        <input
+
+          onChange={(e) => setPassword(e.target.value)}
+          value={password}
+          type="password"
+          placeholder="Password"
+        />
+        <input
+
+          onChange={(e) => setConfirmPassword(e.target.value)}
+          value={confirmPassword}
+          type="password"
+          placeholder="confirm Password"
+        />
+        <button className="form-btn">Register</button>
+      </form>
+    </div>
+  );
+
 }
 
 export default Register
