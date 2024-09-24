@@ -17,7 +17,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 10px;
-    
+    bottom: 20px;
 }
 
 .input-wrapper{
@@ -52,8 +52,11 @@
    
     
 }
+
 .search-box-btn:hover{
     border: 1px solid black;
+    background-color: #e5c962;
+    color: rgb(14, 14, 16);
     
 }
 
@@ -88,6 +91,9 @@
     }
     .search-box-input{
         font-size: 17px;
+    }
+    .search-box{
+        top: 450px;
     }
 
 }

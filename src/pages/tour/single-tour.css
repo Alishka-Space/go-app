@@ -143,7 +143,10 @@
     margin-left: 20px;
     cursor: pointer;
 }
-
+.book-now-btn:hover {
+    background-color: #e5c962;
+    color: rgb(14, 14, 16);
+}
 .book-now-more-info {
     font-size: 17px;
     color: rgb(15, 12, 12);
