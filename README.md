@@ -46,3 +46,11 @@ User can Sign Up to Receive a curated list of the best travel deals and inspirat
 - **Frontend**: React, React Router
 - **Styling**: Custom CSS for clean and visually appealing layouts
 - **API**: Local API for tour data
+
+
+### Running the Application
+   - Start the development server:
+     ```bash
+     npm start
+     ```
+   - Open your browser and navigate to `http://localhost:3000` to view the app.
