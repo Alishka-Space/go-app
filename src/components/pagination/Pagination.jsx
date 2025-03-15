@@ -1,31 +1,50 @@
-import React from 'react'
-import './pagination.css'
+import React, { useEffect } from 'react';
+import './pagination.css';
 
-const Pagination = ({pages,currentPage,setCurrentPage}) => {
+const Pagination = ({ pages, currentPage, setCurrentPage }) => {
+
+    // Scroll to top when the currentPage changes
+    useEffect(() => {
+        window.scrollTo({
+            top: window.innerHeight / 2, 
+            behavior: "smooth" 
+        });
+    }, [currentPage]);
 
     const generatePages = [];
-    for(let i =1; i <= pages; i++){
+    for (let i = 1; i <= pages; i++) {
         generatePages.push(i);
     }
 
-
-  return (
-    <div className="pagination">
-        <button disabled={currentPage === 1} onClick={()=> setCurrentPage(prev => prev - 1)} className="page previous">
-            Previous
-        </button>
-        {generatePages.map(page => 
-            <div onClick={()=> setCurrentPage(page)} key={page} className={currentPage === page ? "page active" : "page"}>
-                {page}
-            </div>
-        )}
-           <button disabled={currentPage === pages} onClick={()=> setCurrentPage(prev => prev + 1)} className="page next">
-            Next
-        </button>
-    </div>
-        
-  
-  )
+    return (
+        <div className="pagination">
+            <button 
+                disabled={currentPage === 1} 
+                onClick={() => setCurrentPage(prev => prev - 1)} 
+                className="page previous"
+            >
+                Previous
+            </button>
+            
+            {generatePages.map(page => 
+                <div 
+                    onClick={() => setCurrentPage(page)} 
+                    key={page} 
+                    className={currentPage === page ? "page active" : "page"}
+                >
+                    {page}
+                </div>
+            )}
+            
+            <button 
+                disabled={currentPage === pages} 
+                onClick={() => setCurrentPage(prev => prev + 1)} 
+                className="page next"
+            >
+                Next
+            </button>
+        </div>
+    );
 }
 
-export default Pagination
+export default Pagination;
