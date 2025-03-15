@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import { toursList } from '../../data';
 import Rating from '../../components/tours/Rating';
 import './single-tour.css'
+import { useEffect } from 'react';
 
 const SingleTour = () => {
   const {id} = useParams();
@@ -11,6 +12,10 @@ const SingleTour = () => {
   const tour =  toursList.find(t => t.id === +id); 
 
   console.log(tour);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
 
 
